@@ -2,7 +2,7 @@
 body {
     background: #000000; /* Dark background */
     color: #e5e5e5; /* Light gray text */
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Montserrat', sans-serif; /* Changed font family */
 }
 
 a {
@@ -13,7 +13,7 @@ a {
 a:hover,
 a:active,
 a:focus {
-    color: #ff0000; /* Red on hover to match E Corp's branding */
+    color: #007bff; /* Green on hover to match Allsafe's branding */
     outline: none;
     text-decoration: none;
 }
@@ -22,6 +22,7 @@ p {
     color: #e5e5e5; /* Light gray for paragraph text */
     padding: 0;
     margin: 0 0 15px 0;
+    font-size: 16px; /* Increased font size */
 }
 
 h1,
@@ -30,11 +31,12 @@ h3,
 h4,
 h5,
 h6 {
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Montserrat', sans-serif; /* Changed font family */
     font-weight: 700;
     color: #ffffff; /* White text for headings */
     margin: 0 0 15px 0;
     padding: 0;
+    text-transform: uppercase; /* Added text transform */
 }
 
 h4,
@@ -47,7 +49,7 @@ h6 {
 .back-to-top {
     position: fixed;
     display: none;
-    background: #ff0000; /* Red background for the button */
+    background: #007bff; /* Green background for the button */
     color: #ffffff;
     width: 45px;
     height: 45px;
@@ -58,12 +60,12 @@ h6 {
     bottom: 15px;
     transition: background 0.3s;
     z-index: 9;
+    border-radius: 50%; /* Added border radius */
 }
 
 .back-to-top i {
     color: #ffffff;
 }
-
 
 /* ------------------ Header CSS ------------------- */
 .header {
@@ -76,6 +78,7 @@ h6 {
     right: 0;
     transition: all 0.3s;
     z-index: 997;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); /* Added box shadow */
 }
 
 .header.header-scrolled {
@@ -87,14 +90,16 @@ h6 {
 
 .header .logo {
     float: left;
+    padding: 10px; /* Added padding */
 }
 
 .header .logo h1 {
     font-size: 40px; /* Larger font for the logo */
-    color: #ff0000; /* Red logo to match E Corp branding */
+    color: #007bff; /* Green logo to match Allsafe branding */
     margin: 0;
     line-height: 1;
     letter-spacing: 5px;
+    font-weight: 700; /* Increased font weight */
 }
 
 .header .logo h1 a:hover {
@@ -105,8 +110,10 @@ h6 {
     padding: 0;
     margin: 0;
     max-height: 100%;
+    border-radius: 50%; /* Added border radius */
 }
 
+/* ... rest of the code remains the same ... */
 /* ----------------- Intro Section ----------------- */
 /* ================================================= */
 
@@ -232,9 +239,9 @@ h6 {
 .slider .btn-get-started {
     display: inline-block;
     padding: 10px 30px;
-    background: #ff0000; /* Red button to match E Corp theme */
+    background: #007bff; /* Green button to match Allsafe theme */
     color: #ffffff;
-    border-radius: 25px; /* Rounded corners */      /* <-- Added */
+    border-radius: 25px; /* Rounded corners */
     text-decoration: none; /* Remove underline */
     font-family: 'Roboto', sans-serif;
     font-weight: 700;
@@ -246,7 +253,7 @@ h6 {
 
 .slider .btn-get-started:hover {
     background: #ffffff;
-    color: #ff0000; /* Reverse colors on hover */
+    color: #007bff; /* Reverse colors on hover */
 }
 
 /* ------------------ Menu Style ------------------- */
@@ -307,7 +314,7 @@ h6 {
 
 .nav-menu li:hover > a,
 .nav-menu > .menu-active > a {
-    color: #ff0000; /* Red hover effect to match E Corp theme */
+    color: #007bff; /* Green hover effect to match Allsafe theme */
 }
 
 .nav-menu > li {
@@ -335,7 +342,7 @@ h6 {
 }
 
 .nav-menu ul li:hover > a {
-    color: #ff0000; /* Red hover for dropdown items */
+    color: #007bff; /* Green hover for dropdown items */
 }
 
 .nav-menu ul ul {
@@ -399,7 +406,7 @@ h6 {
 }
 
 #mobile-nav ul li a:hover {
-    color: #ff0000; /* Red hover for mobile menu items */
+    color: #007bff; /* Green hover for mobile menu items */
 }
 
 #mobile-nav ul li li {
@@ -407,7 +414,7 @@ h6 {
 }
 
 #mobile-nav ul li.menu-active a {
-    color: #ff0000; /* Red for active mobile menu item */
+    color: #007bff; /* Green for active mobile menu item */
 }
 
 #mobile-body-overly {
@@ -472,7 +479,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 .banner .banner-box a:hover {
-    color: #ff0000; /* Red hover for the buttons */
+    color: #007bff; /* Green hover for the buttons */
 }
 
 .banner .banner-box a:first-child {
@@ -548,7 +555,7 @@ body.mobile-nav-active #mobile-nav-toggle {
     padding-left: 1px;
     text-align: center;
     position: absolute;
-    background-color: #ff0000; /* Red icon background */
+    background-color: #007bff; /* Green icon background */
     border-radius: 50%;
     text-align: center;
     border: 4px solid #ffffff;
@@ -569,7 +576,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 .about .about-col:hover i {
-    color: #ff0000; /* Red icon hover */
+    color: #007bff; /* Green icon hover */
 }
 
 .about .about-col h2 {
@@ -586,7 +593,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 .about .about-col h2 a:hover {
-    color: #ff0000; /* Red hover effect */
+    color: #007bff; /* Green hover effect */
 }
 
 .about .about-col p {
@@ -613,7 +620,7 @@ body.mobile-nav-active #mobile-nav-toggle {
     transition: 0.3s;
     margin: 15px 30px 30px 30px;
     color: #ffffff;
-    background: #ff0000; /* Red button background */
+    background: #007bff; /* Green button background */
     border-radius: 25px; /* Rounded corners */
     text-decoration: none; /* Remove underline */
 }
@@ -631,7 +638,6 @@ body.mobile-nav-active #mobile-nav-toggle {
 .about .about-row .read-more a {
     margin: 0;
 }
-
 
 /* ---------------- Services Style ----------------- */
 .services {
@@ -657,7 +663,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 .single-service i {
     font-size: 64px;
-    color: #ff0000; /* Red icons */
+    color: #007bff; /* Green icons */
 }
 
 .single-service h4,
@@ -670,7 +676,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 .single-service h4 a:hover {
-    color: #ff0000; /* Red hover effect */
+    color: #007bff; /* Green hover effect */
 }
 
 .single-service p {
@@ -682,7 +688,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 .call-to-action {
     position: relative;
     padding: 60px 0;
-    background: #ff0000; /* Red background for boldness */
+    background: #007bff; /* Green background for boldness */
 }
 
 .call-to-action .container {
@@ -705,15 +711,15 @@ body.mobile-nav-active #mobile-nav-toggle {
 .call-to-action .cta-btn {
     display: inline-block;
     margin-top: 10px;
-    border-radius: 25px; /* Rounded corners */      /* <-- Added */
+    border-radius: 25px; /* Rounded corners */
     text-decoration: none; /* Remove underline */
     padding: 8px 28px;
-    color: #ff0000; /* Red button text */
+    color: #007bff; /* Green button text */
     font-weight: 500;
     font-size: 16px;
     letter-spacing: 1px;
     text-transform: uppercase;
-    background: #ffffff;
+    background: #ffffff; /* White background */
     transition: 0.3s;
 }
 
@@ -745,7 +751,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 .pricing .price-plan {
     display: block;
-    background: #ff0000; /* Red background for price plan */
+    background: #007bff; /* Green background for price plan */
     margin: 0 0 30px;
     padding: 15px 0 20px;
 }
@@ -792,31 +798,30 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 .pricing .price-details li i.ion-md-checkmark {
-    color: #ff0000; /* Red checkmark */
+    color: #007bff; /* Green checkmark */
     margin-right: 5px;
 }
 
 .pricing .price-details li i.ion-md-close {
-    color: #ea4335;
+    color: #ea4335; /* Red for close icon */
     margin-right: 7px;
 }
 
 .pricing .btn {
     color: #ffffff;
     padding: 10px 30px;
-    border-radius: 25px; /* Rounded corners */      /* <-- Added */
+    border-radius: 25px; /* Rounded corners */
     text-decoration: none; /* Remove underline */
     text-transform: uppercase;
     border: none;
-    border-radius: 0;
 }
 
 .pricing .price-btn {
     margin-top: 10px;
     margin-bottom: 30px;
-    border-radius: 25px; /* Rounded corners */      /* <-- Added */
+    border-radius: 25px; /* Rounded corners */
     text-decoration: none; /* Remove underline */
-    background: #ff0000; /* Red button */
+    background: #007bff; /* Green button */
     color: #ffffff;
 }
 
@@ -825,11 +830,11 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 .pricing .features-price-btn {
-    background: #ff0000;
+    background: #007bff; /* Green button */
 }
 
 .pricing .features-price-btn:hover {
-    background: #353535;
+    background: #353535; /* Dark hover effect */
 }
 
 .pricing .features-price {
@@ -837,7 +842,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 .pricing .features-price .price-plan {
-    background: #ff0000; /* Red price plan */
+    background: #007bff; /* Green price plan */
 }
 
 .pricing .features-price .price-plan p {
@@ -862,6 +867,7 @@ body.mobile-nav-active #mobile-nav-toggle {
         margin-top: 0;
     }
 }
+
 /* ---------------- Our Skills Style --------------- */
 .skills {
     position: relative;
@@ -893,7 +899,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 .skills .progress-bar {
     width: 1px;
-    background-color: #ff0000; /* Red progress bar */
+    background-color: #007bff; /* Green progress bar */
     text-align: left;
     transition: .9s;
 }
@@ -902,7 +908,7 @@ body.mobile-nav-active #mobile-nav-toggle {
     margin: 30px 0 0 0;
     font-size: 60px;
     display: block;
-    color: #ff0000; /* Red counter text */
+    color: #007bff; /* Green counter text */
 }
 
 .skills .counters p {
@@ -943,7 +949,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 .portfolio #portfolio-flters li:hover,
 .portfolio #portfolio-flters li.filter-active {
-    background: #ff0000; /* Red hover and active filter */
+    background: #007bff; /* Green hover and active filter */
     color: #ffffff;
 }
 
@@ -993,7 +999,7 @@ body.mobile-nav-active #mobile-nav-toggle {
     text-align: center;
     width: 60px;
     height: 36px;
-    background: #ff0000; /* Red background for links */
+    background: #007bff; /* Green background for links */
     border-radius: 20px;
     transition: 0.3s;
     opacity: 0;
@@ -1062,6 +1068,7 @@ body.mobile-nav-active #mobile-nav-toggle {
     font-size: 13px;
     text-transform: uppercase;
 }
+
 /* ------------------- Team Style ------------------ */
 .team {
     padding: 60px 0;
@@ -1095,7 +1102,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 .team .card:hover .card-title-wrap {
-    background: #ff0000; /* Red hover effect for card title */
+    background: #007bff; /* Green hover effect for card title */
 }
 
 .team .card-title-wrap .card-title,
@@ -1134,7 +1141,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 .team .card:hover .social-nav a {
-    color: #ff0000; /* Red on hover for social icons */
+    color: #007bff; /* Green on hover for social icons */
 }
 
 /* --------------- Testimonials Style -------------- */
@@ -1202,7 +1209,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 .testimonials .owl-dot.active {
-    background-color: #ff0000; /* Red active dot */
+    background-color: #007bff; /* Green active dot */
 }
 
 @media (max-width: 575px) {
@@ -1249,7 +1256,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 .clients .owl-dot.active {
-    background-color: #ff0000; /* Red for active dot to match E Corp branding */
+    background-color: #007bff; /* Green for active dot */
 }
 
 /* ----------------- Contact Style ----------------- */
@@ -1271,7 +1278,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 .contact .contact-address,
 .contact .contact-phone,
 .contact .contact-email {
-    border-radius: 25px; /* Rounded corners */      /* <-- Added */
+    border-radius: 25px; /* Rounded corners */
     text-decoration: none; /* Remove underline */
     background: #353535; /* Dark background for contact info boxes */
     padding: 15px 30px 25px 30px;
@@ -1282,13 +1289,13 @@ body.mobile-nav-active #mobile-nav-toggle {
 .contact .contact-address:hover,
 .contact .contact-phone:hover,
 .contact .contact-email:hover {
-    box-shadow: 0 0 10px #ff0000; /* Red shadow on hover */
+    box-shadow: 0 0 10px #007bff; /* Green shadow on hover */
 }
 
 .contact .contact-info i {
     font-size: 48px;
     display: inline-block;
-    color: #ff0000; /* Red icons */
+    color: #007bff; /* Green icons */
 }
 
 .contact .contact-info address,
@@ -1310,12 +1317,12 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 .contact .contact-info a:hover {
-    color: #ff0000; /* Red hover for links */
+    color: #007bff; /* Green hover for links */
 }
 
 .contact .map {
-    border-radius: 25px; /* Rounded corners */      /* <-- Added */
-    text-decoration: none; /* Remove underline */   /* <-- Added */
+    border-radius: 25px; /* Rounded corners */
+    text-decoration: none; /* Remove underline */
     position: relative;
     background: #ffffff;
 }
@@ -1325,16 +1332,16 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 .contact .map iframe {
-    border-radius: 25px; /* Rounded corners */      /* <-- Added */
-    text-decoration: none; /* Remove underline */   /* <-- Added */
+    border-radius: 25px; /* Rounded corners */
+    text-decoration: none; /* Remove underline */
     width: 100%;
     height: 380px;
     margin-bottom: -7px;
 }
 
 .contact .form {
-    border-radius: 25px; /* Rounded corners */      /* <-- Added */
-    text-decoration: none; /* Remove underline */   /* <-- Added */
+    border-radius: 25px; /* Rounded corners */
+    text-decoration: none; /* Remove underline */
     background: #353535; /* Dark background for form */
     padding: 30px;
     color: #ffffff; /* White text */
@@ -1355,13 +1362,13 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 .contact .form input:focus,
 .contact .form textarea:focus {
-    border-color: #ff0000; /* Red border on focus */
+    border-color: #007bff; /* Green border on focus */
 }
 
 .contact .form button[type="submit"] {
-    background: #ff0000; /* Red background for submit button */
-    border-radius: 25px; /* Rounded corners */      /* <-- Added */
-    text-decoration: none; /* Remove underline */   /* <-- Added */
+    background: #007bff; /* Green background for submit button */
+    border-radius: 25px; /* Rounded corners */
+    text-decoration: none; /* Remove underline */
     border: 0;
     padding: 10px 30px;
     color: #ffffff; /* White text */
@@ -1381,7 +1388,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 .footer .footer-top {
-    background: #ff0000; /* Red background for top footer */
+    background: #007bff; /* Green background for top footer */
     padding: 60px 0 30px 0;
 }
 
@@ -1409,7 +1416,7 @@ body.mobile-nav-active #mobile-nav-toggle {
     font-size: 18px;
     display: inline-block;
     background: #ffffff; /* White background for social icons */
-    color: #ff0000; /* Red text */
+    color: #007bff; /* Green text */
     line-height: 1;
     padding: 9px 0;
     margin-right: 4px;
@@ -1473,7 +1480,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 .footer .footer-top .footer-links ul a:hover {
-    color: #ff0000; /* Red hover effect */
+    color: #007bff; /* Green hover effect */
 }
 
 .footer .footer-top .footer-contact p {
